@@ -1821,7 +1821,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c33814;
+  background: #ffff7c;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3070,10 +3070,6 @@ ul {
 }
 #SOHUCS #SOHU_MAIN .changyan-login-dialog-wrapper .platform-login .login-instruction {
   display: none !important;
-}
-#SOHUCS #SOHU_MAIN .changyan-login-dialog-wrapper.changyan-login-dialog-wrapper-main {
-  background: none;
-  background-image: url("/images/login-bg.png") !important;
 }
 #SOHUCS #SOHU_MAIN .changyan-login-dialog-wrapper .cy-logo {
   background: none !important;
