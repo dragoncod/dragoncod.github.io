@@ -1821,7 +1821,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffc1aa;
+  background: #c33814;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3077,10 +3077,6 @@ ul {
 }
 #SOHUCS #SOHU_MAIN .changyan-login-dialog-wrapper .cy-logo {
   background: none !important;
-}
-#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a .btn-fw {
-  background: none;
-  background-image: url("/images/pinglun.png") !important;
 }
 #SOHUCS #SOHU_MAIN .module-cmt-footer .section-service-w,
 #SOHUCS #SOHU_MAIN .module-cmt-footer .section-service-w .service-wrap-w,
