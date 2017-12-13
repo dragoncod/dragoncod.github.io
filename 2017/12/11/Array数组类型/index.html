@@ -90,15 +90,18 @@
 
 
 
+<meta name="description" content="数组类型检测数组 instanceof  12const arr = [1,2,3]arr instanceof Array   // true  instanceof 操作符具有一定的局限性，它假定的是只有一个全局执行环境。如果页面中包含多个框架，那么就存在多个全局环境，从而存在多个不同版本的Array的构造函数。  Array.isArray(value)  12const arr = [1">
 <meta name="keywords" content="javascript,array">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Array数组类型">
 <meta property="og:url" content="http://yoursite.com/2017/12/11/Array数组类型/index.html">
 <meta property="og:site_name" content="rice &amp; shine">
+<meta property="og:description" content="数组类型检测数组 instanceof  12const arr = [1,2,3]arr instanceof Array   // true  instanceof 操作符具有一定的局限性，它假定的是只有一个全局执行环境。如果页面中包含多个框架，那么就存在多个全局环境，从而存在多个不同版本的Array的构造函数。  Array.isArray(value)  12const arr = [1">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-11T13:50:35.822Z">
+<meta property="og:updated_time" content="2017-12-12T08:38:11.295Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Array数组类型">
+<meta name="twitter:description" content="数组类型检测数组 instanceof  12const arr = [1,2,3]arr instanceof Array   // true  instanceof 操作符具有一定的局限性，它假定的是只有一个全局执行环境。如果页面中包含多个框架，那么就存在多个全局环境，从而存在多个不同版本的Array的构造函数。  Array.isArray(value)  12const arr = [1">
 
 
 
@@ -366,7 +369,16 @@
       
 
       
-        
+        <h1 id="数组类型"><a href="#数组类型" class="headerlink" title="数组类型"></a>数组类型</h1><h2 id="检测数组"><a href="#检测数组" class="headerlink" title="检测数组"></a>检测数组</h2><ol>
+<li><p>instanceof</p>
+ <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line">arr <span class="keyword">instanceof</span> <span class="built_in">Array</span>   <span class="comment">// true</span></span><br></pre></td></tr></table></figure>
+<p> instanceof 操作符具有一定的局限性，它假定的是只有一个全局执行环境。如果页面中包含多个框架，那么就存在多个全局环境，从而存在多个不同版本的Array的构造函数。</p>
+</li>
+<li><p>Array.isArray(value)</p>
+ <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line"><span class="built_in">Array</span>.isArray(arr)    <span class="comment">// true</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="数组的转换方法"><a href="#数组的转换方法" class="headerlink" title="数组的转换方法"></a>数组的转换方法</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> arr = [<span class="string">"dog"</span>, <span class="string">"cat"</span>, <span class="string">"monkey"</span>]</span><br><span class="line">arr.toString()   <span class="comment">// "dog,cat,monkey"</span></span><br><span class="line">arr.valueOf()    <span class="comment">// ["dog", "cat", "monkey"]</span></span><br></pre></td></tr></table></figure>
       
     </div>
 
@@ -504,8 +516,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -596,6 +617,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#数组类型"><span class="nav-number">1.</span> <span class="nav-text"><a href="#&#x6570;&#x7EC4;&#x7C7B;&#x578B;" class="headerlink" title="&#x6570;&#x7EC4;&#x7C7B;&#x578B;"></a>&#x6570;&#x7EC4;&#x7C7B;&#x578B;</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#检测数组"><span class="nav-number">1.1.</span> <span class="nav-text"><a href="#&#x68C0;&#x6D4B;&#x6570;&#x7EC4;" class="headerlink" title="&#x68C0;&#x6D4B;&#x6570;&#x7EC4;"></a>&#x68C0;&#x6D4B;&#x6570;&#x7EC4;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数组的转换方法"><span class="nav-number">1.2.</span> <span class="nav-text"><a href="#&#x6570;&#x7EC4;&#x7684;&#x8F6C;&#x6362;&#x65B9;&#x6CD5;" class="headerlink" title="&#x6570;&#x7EC4;&#x7684;&#x8F6C;&#x6362;&#x65B9;&#x6CD5;"></a>&#x6570;&#x7EC4;&#x7684;&#x8F6C;&#x6362;&#x65B9;&#x6CD5;</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

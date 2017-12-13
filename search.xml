@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Array数组类型]]></title>
     <url>%2F2017%2F12%2F11%2FArray%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[数组类型检测数组 instanceof 12const arr = [1,2,3]arr instanceof Array // true instanceof 操作符具有一定的局限性，它假定的是只有一个全局执行环境。如果页面中包含多个框架，那么就存在多个全局环境，从而存在多个不同版本的Array的构造函数。 Array.isArray(value) 12const arr = [1,2,3]Array.isArray(arr) // true 数组的转换方法123const arr = ["dog", "cat", "monkey"]arr.toString() // "dog,cat,monkey"arr.valueOf() // ["dog", "cat", "monkey"]]]></content>
       <tags>
         <tag>javascript</tag>
         <tag>array</tag>
